@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pikatube | ZekeHub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #1a1a1a, #000);
+      color: #ffe600;
+      text-align: center;
+      padding: 2em;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-shadow: 0 0 10px #ffe600;
+      margin-bottom: 1em;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+      margin-top: 2em;
+    }
+
+    .video-card {
+      width: 300px;
+      background: #111;
+      border: 2px solid #ffe600;
+      border-radius: 10px;
+      box-shadow: 0 0 12px #ffd700;
+      padding: 1em;
+      transition: transform 0.2s ease;
+    }
+
+    .video-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ffea00;
+    }
+
+    .video-card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .video-card a {
+      display: block;
+      margin-top: 0.7em;
+      font-size: 1.1em;
+      color: #fffb00;
+      text-decoration: none;
+    }
+
+    .video-card a:hover {
+      text-shadow: 0 0 5px #fff700;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚡ Welcome to Pikatube ⚡</h1>
+
+  <div class="gallery">
+    <div class="video-card">
+      <img src="./pic/1.png" alt="how to make a exe file(not on youtube yet)">
+      <a href="./video/1.html">how to make a exe file(not on youtube yet)</a>
+      <a href="./video/1.html">zeke-owner</a>
+    </div>
+
+    <!-- Add more cards below as needed -->
+  </div>
+</body>
+</html>
